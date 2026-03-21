@@ -14,3 +14,6 @@ Implement a furniture shipping cost calculator using the Visitor Design Pattern.
   - When a shipping cost is needed, the furniture item accepts a visitor via the `accept()` method.
   - The visitor then calls the appropriate `visit()` method based on the furniture type, applying the correct cost calculation logic.
 - **Validation** — Ensures that each furniture type is handled by the correct visit method, and that shipping costs are computed accurately based on the item's attributes and the chosen shipping strategy.
+
+### UML Diagram:
+![UML Diagram](https://github.com/angelynbondoc/Visitor-Design-Pattern/blob/main/Visitor%20Design%20Pattern_Furniture%20Shipping%20Cost_UML%20Diagram.png)
